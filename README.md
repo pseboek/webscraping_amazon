@@ -22,11 +22,11 @@ In the config file all parameters are listed in order to scrape the amazon websi
 
 ---
 
-## scrpit.py
+## script.py
 
 First, all needed **libraries** are loaded. BeautifulSoup is necessary for webscraping the website, and MIMEMultipart as well as MIMEText are used for formatting the email message.
 
-Afterwards the **config values** are set by reading in the config.json. The routine **get_product_info()** defines the variable headers that contains information about the user agent. This is browser specific and can be looked up at [http://httpbin.org/get](http://httpbin.org/get).
+Afterwards the **config values** are set by reading in the config.json. The routine **get_product_info()** defines the variable **headers** that contains information about the user agent. This is browser specific and can be looked up at [http://httpbin.org/get](http://httpbin.org/get).
 
 The **response** is parsed and some elements are assigned to their values (i.e. price, desciption). After that the results are written to a **csv file** and an **email** is sent if the set condition is true.
 
