@@ -1,0 +1,11 @@
+{
+    "file": "C:\\Users\\[XXX]\\Desktop\\webscraping_amazon\\webscraping_amazon.csv",
+    "url": "https://www.amazon.de/Sony-Interactive-Entertainment-PlayStation-5/dp/B08H93ZRK9/",
+    "sender": "SENDER_MAIL",
+    "recipient": "RECIPIENT_MAIL",
+    "password": "YOUR_PASSWORD",
+    "smtp": "mail.gmx.net",
+    "port": 587,
+    "lower": 100,
+    "upper": 750
+}
